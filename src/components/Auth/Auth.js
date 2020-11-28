@@ -1,12 +1,17 @@
 import React from "react";
-const Auth = () => {
+const Auth = ({ src, login, register }) => {
   return (
     <>
-      <img src="../images/ЛОГО.png" alt="logo" />
-      <button>вход</button>
-      <button>регистрация</button>
+      <img src={src} alt="logo" />
+      <button type="button">{login}</button>
+      <button type="button">{register}</button>
     </>
   );
 };
 
+Auth.defaultProps = {
+  src: "../../components/images/ЛОГО.png",
+  login: "вход",
+  register: "зарегестрироваться",
+};
 export default Auth;
