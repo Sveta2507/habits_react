@@ -1,0 +1,39 @@
+
+.logoWrapper {
+    margin: 68px 0 118px 0;
+    width: 260px;
+    height: 90px;
+    background-image: url(../../images/mobile/back-wave-bottom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .auth-motivation {
+    display: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #390e84;
+    text-align: center;
+  }
+
+  .loginBtn:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .loginBtn {
+    display: block;
+    width: 207px;
+    height: 37px;
+    border-radius: 19px;
+    background-color: rgba(234, 231, 242, 0.5019607843137255);
+    border: 1px solid #390e84;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #390e84;
+    font-weight: bold;
+  }
+
+  .loginBtn::first-letter,
+  .auth-motivation::first-letter {
+    text-transform: capitalize;
+  }

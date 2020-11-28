@@ -3,7 +3,7 @@ import Auth from "./components/Auth/Auth.js";
 
 function App() {
   //ХРАНИМ В ПЕРЕМЕННЫХ ЗНАЧЕНИЯ ДЛЯ ПРОПСОВ
-  let imgUrl = "./components/images/ЛОГО.png";
+  let imgUrl = "../src/images/logo.png";
   let login = "вход";
   let register = "регистрация";
 
