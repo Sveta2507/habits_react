@@ -1,6 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "./Auth.module.css";
+// import SignUp from "../SignUp/SignUp.js";
+// import SignIn from "../SignIn/SignIn.js"
+
 const Auth = ({ src, login, register }) => {
   return (
     <>
@@ -13,12 +16,15 @@ const Auth = ({ src, login, register }) => {
       <button className={styles.loginBtn} type="button">
         {register}
       </button>
+      <p>Component Auth</p>
+      {/* <SignUp title="register">
+      <SignIn title=""> */}
     </>
   );
 };
 //ЗНАЧЕНИЕ ПРОПСА ЕСЛИ ИЗ РОДИТЕЛЯ ЕГО НЕ ПОЛУЧИЛИ
 Auth.defaultProps = {
-  src: "../../images/logo.png",
+  src: "../../images/logo.svg",
   login: "вход",
   register: "зарегестрироваться",
 };
